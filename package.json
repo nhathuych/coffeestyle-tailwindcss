@@ -4,12 +4,16 @@
   "description": "clone coffeestyle template by tailwindcss",
   "main": "index.js",
   "scripts": {
-    "tailwindcss:build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+    "tailwindcss:build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "liveserver:start": "live-server public"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
   }
 }
