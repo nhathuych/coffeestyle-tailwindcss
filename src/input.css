@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.top-nav-menu {
+  @apply
+  py-1
+  relative
+  cursor-pointer
+  text-gray-800
+  after:absolute
+  after:bg-light-coffee
+  after:bottom-0
+  after:left-0
+  after:h-0.5
+  after:w-0
+  after:transition-all
+  after:ease-in-out
+  after:duration-300
+  hover:after:w-full
+  hover:text-light-coffee
+}
+
+.ic-card {
+  @apply
+  w-5
+  h-5
+  inline-block;
+}
+
+.badge-circle {
+  @apply
+  text-xs
+  text-center
+  rounded-full
+  px-1
+  py-1;
+}
