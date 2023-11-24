@@ -4,30 +4,46 @@
 @tailwind components;
 @tailwind utilities;
 
+.top-nav-menu-expanded {
+  @apply
+  absolute
+  text-center
+  top-10
+  w-full
+  z-50
+  bg-white
+  animate-slideDown
+}
+
 .top-nav-menu {
   @apply
   py-1
   relative
   cursor-pointer
   text-gray-800
-  after:absolute
-  after:bg-light-coffee
-  after:bottom-0
-  after:left-0
-  after:h-0.5
-  after:w-0
-  after:transition-all
-  after:ease-in-out
-  after:duration-300
-  hover:after:w-full
+  after:lg:absolute
+  after:lg:bg-light-coffee
+  after:lg:bottom-0
+  after:lg:left-0
+  after:lg:h-0.5
+  after:lg:w-0
+  after:lg:transition-all
+  after:lg:ease-in-out
+  after:lg:duration-300
+  hover:after:lg:w-full
   hover:text-light-coffee
+}
+
+.top-nav-menu-active {
+  @apply
+  text-gray-800
 }
 
 .ic-card {
   @apply
   w-5
   h-5
-  inline-block;
+  inline-block
 }
 
 .badge-circle {
@@ -36,5 +52,5 @@
   text-center
   rounded-full
   px-1
-  py-1;
+  py-1
 }
