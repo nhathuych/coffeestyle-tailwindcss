@@ -10,15 +10,15 @@
 </head>
 <body>
   <div id="root">
-    <div class="wrapper font-karla max-w-screen-2xl text-base mx-auto px-8 bg-slate-200">
-      <header class="p-6 mx-auto">
-        <nav class="flex flex-row justify-between items-center relative">
+    <div class="wrapper font-karla max-w-screen-2xl text-base mx-auto px-8">
+      <header>
+        <nav class="flex flex-row justify-center items-center relative p-6 mx-auto">
           <div class="logo basis-2/6 text-center text-xl font-semibold">
             <span class="cursor-pointer">CoffeeStyle.</span>
           </div>
 
           <ul id="js-top-nav-menu" class="uppercase basis-3/6 hidden lg:flex lg:justify-end lg:gap-8 text-sm text-gray-500 font-medium">
-            <li class="top-nav-menu">
+            <li class="top-nav-menu font-semibold">
               <a href="#">Home</a>
             </li>
             <li class="top-nav-menu">
@@ -56,12 +56,27 @@
             </svg>
           </div>
         </nav>
+
+        <!-- header image -->
+        <div class="bg-header-pic bg-cover bg-bottom bg-no-repeat h-[530px]">
+          <div class="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-25">
+            <div class="text-white text-center w-11/12">
+              <div class="mb-8">
+                <div class="uppercase text-sm tracking-widest">Best place to buy coffee</div>
+                <div class="capitalize text-5xl font-medium my-4">Coffee mugs</div>
+                <div class="text-[18px]">The most versatile furniture system ever created. Designed to fit your life, made to move and grow.</div>
+              </div>
+              <div class="flex justify-center">
+                <div class="uppercase select-none bg-white text-slate-900 tracking-wider text-sm font-medium cursor-pointer max-w-sm py-4 px-6 hover:opacity-95 hover:text-slate-600">
+                  Explore our products
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- end header image -->
       </header>
 
       <main>
-        <div class="slider">
-        </div> <!-- end slider -->
-
         <div class="story">
         </div> <!-- end story -->
 

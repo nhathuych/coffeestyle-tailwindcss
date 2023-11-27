@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         'light-coffee': '#C89F94',
       },
+      backgroundImage: {
+        'header-pic': 'url("./img/header-pic.jpeg")'
+      },
       keyframes: {
         slideDown: {
           '0%': { transform: 'translateY(-100%)' },
