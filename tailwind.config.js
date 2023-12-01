@@ -7,7 +7,13 @@ module.exports = {
         karla: ['Karla', 'sans-serif']
       },
       colors: {
-        'light-coffee': '#C89F94',
+        'light-coffee': '#c89f94',
+        'coffee': {
+          50:  '#ecd2ca',
+          200: '#c89f94',
+          400: '#a25f4b',
+          600: '#6b4234',
+        }
       },
       backgroundImage: {
         'header-pic': 'url("./img/header-pic.jpeg")'
