@@ -575,6 +575,15 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
+}
+
 .mb-24{
   margin-bottom: 6rem;
 }
@@ -615,20 +624,20 @@ video {
   height: 1.5rem;
 }
 
-.h-\[530px\]{
-  height: 530px;
-}
-
-.h-\[540px\]{
-  height: 540px;
-}
-
-.h-full{
-  height: 100%;
+.h-\[380px\]{
+  height: 380px;
 }
 
 .h-\[390px\]{
   height: 390px;
+}
+
+.h-\[530px\]{
+  height: 530px;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .w-11\/12{
@@ -643,28 +652,20 @@ video {
   width: 100px;
 }
 
-.w-\[65\%\]{
-  width: 65%;
-}
-
 .w-\[90\%\]{
   width: 90%;
-}
-
-.w-full{
-  width: 100%;
 }
 
 .w-\[95\%\]{
   width: 95%;
 }
 
-.max-w-screen-2xl{
-  max-width: 1536px;
+.w-full{
+  width: 100%;
 }
 
-.max-w-sm{
-  max-width: 24rem;
+.max-w-screen-2xl{
+  max-width: 1536px;
 }
 
 .grow{
@@ -702,10 +703,6 @@ video {
   resize: both;
 }
 
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -726,20 +723,12 @@ video {
   justify-content: center;
 }
 
-.gap-4{
-  gap: 1rem;
+.gap-12{
+  gap: 3rem;
 }
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-10{
-  gap: 2.5rem;
-}
-
-.gap-12{
-  gap: 3rem;
 }
 
 .bg-gray-900{
@@ -767,6 +756,42 @@ video {
 
 .bg-\[url\(\'\.\/img\/featured-mugs-02\.jpeg\'\)\]{
   background-image: url('./img/featured-mugs-02.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-01\.jpeg\'\)\]{
+  background-image: url('./img/product-01.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-02\.jpeg\'\)\]{
+  background-image: url('./img/product-02.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-03\.jpeg\'\)\]{
+  background-image: url('./img/product-03.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-04\.jpeg\'\)\]{
+  background-image: url('./img/product-04.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-05\.jpeg\'\)\]{
+  background-image: url('./img/product-05.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-06\.jpeg\'\)\]{
+  background-image: url('./img/product-06.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-07\.jpeg\'\)\]{
+  background-image: url('./img/product-07.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-08\.jpeg\'\)\]{
+  background-image: url('./img/product-08.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-09\.jpeg\'\)\]{
+  background-image: url('./img/product-09.jpeg');
 }
 
 .bg-header-pic{
@@ -803,11 +828,6 @@ video {
   padding-right: 1rem;
 }
 
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
@@ -821,11 +841,6 @@ video {
 .py-28{
   padding-top: 7rem;
   padding-bottom: 7rem;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .py-6{
@@ -858,11 +873,6 @@ video {
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-sm{
@@ -899,10 +909,6 @@ video {
   line-height: 1.75rem;
 }
 
-.tracking-wider{
-  letter-spacing: 0.05em;
-}
-
 .tracking-widest{
   letter-spacing: 0.1em;
 }
@@ -920,11 +926,6 @@ video {
 .text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.text-slate-900{
-  --tw-text-opacity: 1;
-  color: rgb(15 23 42 / var(--tw-text-opacity));
 }
 
 .text-white{
@@ -1151,14 +1152,6 @@ video {
   color: rgb(71 85 105 / var(--tw-text-opacity));
 }
 
-.hover\:opacity-90:hover{
-  opacity: 0.9;
-}
-
-.hover\:opacity-95:hover{
-  opacity: 0.95;
-}
-
 .hover\:transition-all:hover{
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1212,6 +1205,14 @@ video {
   .md\:w-\[70\%\]{
     width: 70%;
   }
+
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:gap-4{
+    gap: 1rem;
+  }
 }
 
 @media (min-width: 1024px){
@@ -1235,6 +1236,10 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:justify-start{
     justify-content: flex-start;
   }
@@ -1243,11 +1248,23 @@ video {
     justify-content: flex-end;
   }
 
+  .lg\:gap-4{
+    gap: 1rem;
+  }
+
   .lg\:gap-8{
     gap: 2rem;
   }
+}
 
-  .lg\:gap-4{
-    gap: 1rem;
+@media (min-width: 1280px){
+  .xl\:w-\[70\%\]{
+    width: 70%;
+  }
+}
+
+@media (min-width: 1536px){
+  .\32xl\:w-\[70\%\]{
+    width: 70%;
   }
 }
