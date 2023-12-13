@@ -80,3 +80,20 @@
   text-xs
   mx-4
 }
+
+.light-button {
+  @apply
+  uppercase
+  text-center
+  select-none
+  bg-white
+  text-slate-900
+  tracking-wider
+  text-sm
+  font-medium
+  cursor-pointer
+  max-w-sm
+  py-4
+  px-6
+  hover:opacity-90
+}
