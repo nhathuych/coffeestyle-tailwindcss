@@ -580,22 +580,16 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mx-4{
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.mx-0{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
 .mb-16{
   margin-bottom: 4rem;
 }
 
 .mb-24{
   margin-bottom: 6rem;
+}
+
+.mb-3{
+  margin-bottom: 0.75rem;
 }
 
 .mb-8{
@@ -614,20 +608,12 @@ video {
   margin-top: 0.75rem;
 }
 
-.mt-6{
-  margin-top: 1.5rem;
-}
-
-.mb-3{
-  margin-bottom: 0.75rem;
-}
-
 .mt-5{
   margin-top: 1.25rem;
 }
 
-.mt-10{
-  margin-top: 2.5rem;
+.mt-6{
+  margin-top: 1.5rem;
 }
 
 .flex{
@@ -660,6 +646,10 @@ video {
 
 .h-\[390px\]{
   height: 390px;
+}
+
+.h-\[400px\]{
+  height: 400px;
 }
 
 .h-\[530px\]{
@@ -696,14 +686,6 @@ video {
 
 .max-w-screen-2xl{
   max-width: 1536px;
-}
-
-.max-w-sm{
-  max-width: 24rem;
-}
-
-.flex-grow{
-  flex-grow: 1;
 }
 
 .grow{
@@ -828,6 +810,10 @@ video {
   background-image: url('./img/magazine-03.jpeg');
 }
 
+.bg-\[url\(\'\.\/img\/parallax\.jpeg\'\)\]{
+  background-image: url('./img/parallax.jpeg');
+}
+
 .bg-\[url\(\'\.\/img\/product-01\.jpeg\'\)\]{
   background-image: url('./img/product-01.jpeg');
 }
@@ -870,6 +856,10 @@ video {
 
 .bg-cover{
   background-size: cover;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
 }
 
 .bg-bottom{
@@ -918,30 +908,6 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.pl-14{
-  padding-left: 3.5rem;
-}
-
-.pr-14{
-  padding-right: 3.5rem;
-}
-
-.pr-6{
-  padding-right: 1.5rem;
-}
-
-.pr-4{
-  padding-right: 1rem;
-}
-
-.pl-8{
-  padding-left: 2rem;
-}
-
-.pr-8{
-  padding-right: 2rem;
-}
-
 .text-center{
   text-align: center;
 }
@@ -953,6 +919,11 @@ video {
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-5xl{
@@ -984,11 +955,6 @@ video {
   line-height: 1rem;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .font-medium{
   font-weight: 500;
 }
@@ -1009,12 +975,12 @@ video {
   line-height: 2.5rem;
 }
 
-.leading-7{
-  line-height: 1.75rem;
-}
-
 .leading-6{
   line-height: 1.5rem;
+}
+
+.leading-7{
+  line-height: 1.75rem;
 }
 
 .tracking-widest{
@@ -1209,6 +1175,12 @@ video {
   opacity: 0.9;
 }
 
+.parallax-section{
+  position: relative;
+  left: calc(-50vw + 50%);
+  width: 100vw;
+}
+
 .after\:absolute::after{
   content: var(--tw-content);
   position: absolute;
@@ -1353,14 +1325,6 @@ video {
     width: 70%;
   }
 
-  .md\:flex-grow{
-    flex-grow: 1;
-  }
-
-  .md\:basis-1\/2{
-    flex-basis: 50%;
-  }
-
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1371,10 +1335,6 @@ video {
 
   .md\:gap-4{
     gap: 1rem;
-  }
-
-  .md\:pl-14{
-    padding-left: 3.5rem;
   }
 
   .md\:pl-6{
@@ -1427,13 +1387,5 @@ video {
 @media (min-width: 1280px){
   .xl\:w-\[70\%\]{
     width: 70%;
-  }
-
-  .xl\:pl-14{
-    padding-left: 3.5rem;
-  }
-
-  .xl\:pr-14{
-    padding-right: 3.5rem;
   }
 }

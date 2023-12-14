@@ -115,3 +115,10 @@
   px-6
   hover:opacity-90
 }
+
+.parallax-section {
+  @apply
+  relative
+  w-screen
+  left-[calc(-50vw_+_50%)]
+}
