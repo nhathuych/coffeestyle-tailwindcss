@@ -580,6 +580,16 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.my-3{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-16{
   margin-bottom: 4rem;
 }
@@ -658,6 +668,14 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-\[300px\]{
+  height: 300px;
+}
+
+.h-\[330px\]{
+  height: 330px;
 }
 
 .w-11\/12{
@@ -854,6 +872,18 @@ video {
   background-image: url("./img/header-pic.jpeg");
 }
 
+.bg-\[url\(\'\.\/img\/lifestyle-story-01\.jpeg\'\)\]{
+  background-image: url('./img/lifestyle-story-01.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/lifestyle-story-02\.jpeg\'\)\]{
+  background-image: url('./img/lifestyle-story-02.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/lifestyle-story-03\.jpeg\'\)\]{
+  background-image: url('./img/lifestyle-story-03.jpeg');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -1005,6 +1035,11 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-600{
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 .line-through{
