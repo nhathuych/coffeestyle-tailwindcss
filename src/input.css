@@ -88,11 +88,29 @@
   select-none
   bg-white
   text-slate-900
+  shadow-lg
   tracking-wider
   text-sm
   font-medium
   cursor-pointer
   max-w-sm
+  py-4
+  px-6
+  hover:opacity-90
+}
+
+.dark-button {
+  @apply
+  uppercase
+  text-center
+  select-none
+  bg-gray-900
+  text-white
+  tracking-wider
+  text-sm
+  font-medium
+  cursor-pointer
+  max-w-fit
   py-4
   px-6
   hover:opacity-90
