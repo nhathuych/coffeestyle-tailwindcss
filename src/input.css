@@ -81,7 +81,7 @@
   mx-4
 }
 
-.light-button {
+.btn-light {
   @apply
   uppercase
   text-center
@@ -93,13 +93,12 @@
   text-sm
   font-medium
   cursor-pointer
-  max-w-sm
   py-4
   px-6
-  hover:opacity-90
+  hover:opacity-95
 }
 
-.dark-button {
+.btn-dark {
   @apply
   uppercase
   text-center
@@ -121,4 +120,30 @@
   relative
   w-screen
   left-[calc(-50vw_+_50%)]
+}
+
+.input-subscribe {
+  @apply
+  bg-inherit
+  border
+  border-gray-700
+  outline-none
+  text-white
+  leading-5
+  hover:border-gray-500
+  focus:border-gray-500
+  duration-300
+  uppercase
+  text-xs
+  tracking-widest
+  font-bold
+  placeholder:uppercase
+  placeholder:text-xs
+  placeholder:tracking-widest
+  placeholder:font-semibold
+  w-[350px]
+  max-w-[80%]
+  sm:max-w-full
+  px-6
+  py-4
 }
